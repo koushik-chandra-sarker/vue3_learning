@@ -2,7 +2,12 @@
 const app = Vue.createApp({
   data(){
     return{
-      message:"Hello!"
+      seen:true,
+      todos: [
+        { text: 'Learn JavaScript' },
+        { text: 'Learn Vue' },
+        { text: 'Build something awesome' }
+      ]
     }
   }
 })

@@ -17,10 +17,11 @@
       <h1>Vue Events</h1>
     </header>
     <section id="events">
-      <h2>V-model</h2>
-      <input type="text" v-model="message">
-    
-      <p>Result: {{ message }}</p>
+      <h2>V-if</h2>
+      <p v-if="seen">Show the massage.</p>
+
+      <h2>v-for</h2>
+      <p v-for="todo in todos">{{todo.text}} </p>
     </section>
   </body>
 </html>
